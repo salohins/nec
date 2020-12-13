@@ -1,0 +1,227 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+@font-face {
+    font-family: coolvetica;
+    src: url(../fonts/TIMESS__.ttf);
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../img/bg_nec.png) center;
+    background-size: cover;
+}
+
+i {
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: url(commonfilters.svg#filter);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    display: inline-block;
+}
+
+#ph {
+    float:left;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    color: rgb(209, 209, 209);
+    font-size: 50px;
+    font-family: coolvetica;
+}
+
+#login-box {
+   text-align: right;
+   margin-right: 110px;
+}
+
+#login-box > * {
+    display: inline-block;
+    padding: 2px; 
+    margin-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#login-box img { 
+    width: 110px;
+    float:left;
+    
+    margin: 0px;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+#registration {
+  width: auto;
+  float: right;
+  color: white;
+  margin-right: 125px;
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: url(commonfilters.svg#filter);
+  backdrop-filter: blur(10px);
+  padding: 40px; 
+  border-radius: 30px;
+  position: relative;
+}
+
+#registration h1{
+    text-align: left;
+    font-size: 33px;
+    margin-bottom: -20px;
+}
+
+#registration h4{
+    text-align: left;
+    font-size: 20px;
+
+    color: white;
+    font-weight: normal;
+}
+
+#registration h3{
+    text-align: left;
+    font-size: 20px;
+
+    color: rgb(167, 167, 167);
+}
+
+  #registration #name, #surname {
+    display: table-cell;
+  }
+
+#registration input:not([type='checkbox']) {
+    line-height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+    
+    border-radius: 7px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1.5px;
+    
+    width:100%;
+    box-sizing : border-box;
+    opacity: 1;
+    
+}
+
+#registration select {
+    width: 70px;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#login-box input {
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 5px;
+    line-height: 20px;
+ }
+
+  #login-box .btn {
+    border: 1px solid white;
+    border-radius: 20px;
+    color:  white;
+    background: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 2px 10px 2px 10px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  #registration .btn {
+    width: 98.5%;
+    background-color: rgb(103, 201, 119);
+    margin: 2.5px;
+    padding: 1px;
+    color: white;
+  }
+
+  .textbox {
+      padding: 3px;
+  }
+  
+  .roundCheck {
+      float: left;
+      width: 20px;
+      height: 20px;
+      margin: 30px;
+  }
+
+  #registration #gender {
+      margin-bottom: 5px;
+      margin-left: 10px;
+      font-size: 20px;
+  }
+
+  #gender input {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: top;
+    border: 3px solid white;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  #gender label {
+    margin-right: 20px;
+  }
+
+  #gender input:checked {
+    background: rgb(41, 41, 41);
+  }
+
+  #registration p {
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: rgb(131, 131, 131)
+}
+
+
+
+footer {
+   position: relative;
+   width:100%;
+   line-height:20px;   /* Height of the footer */
+   bottom: 0;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+   display: inline-block;
+   margin-top: 70px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }
+
+
+main {
+    height: 100%;
+}
+
+  
+
+  
